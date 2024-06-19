@@ -1,0 +1,170 @@
+/* General Styles */
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header, footer {
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    background: linear-gradient(135deg, #da7cd2, #2d5c87);
+}
+
+main {
+    padding: 2rem;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+.explanation{
+    color: #B5B5B5;
+}
+/* Intro Section */
+.intro {
+    margin-bottom: 2rem;
+}
+
+/* Graphs Section */
+.graphs {
+    margin-bottom: 2rem;
+}
+
+.graph-container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.graph-container-plotUK{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80vw; 
+    height: 80vh; 
+    display: flex;
+    flex-direction: column;
+
+}
+
+.side-by-side{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80vw; /* Ajustar al ancho deseado */
+    height: 80vh; /* Altura inicial sugerida, ajustar según sea necesario */
+}
+
+.side-by-side .graph-container {
+    width: 40vw; 
+    height: 80vh;
+    margin-left: 0vw;
+    margin-right: 0vw;
+}
+
+.center-img{
+    display: flex;
+    justify-content: center;
+}
+
+.center-img img{
+    object-fit: contain;
+}
+/* Language Toggle Button */
+.language-toggle {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.language-toggle:hover {
+    background-color: #eee;
+}
+
+
+/* SPECIFICS*/
+
+/* ABOUT ME*/
+.about-me-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8vw;
+}
+
+.about-me-container div{
+    width: 40vw;
+    height: auto;
+}
+
+.about-me-container p{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.about-me-container div div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about-me-container a img {
+    width: 10vw;
+    height: auto;
+}
+.about-me-container img {
+    width: 20vw;
+    height: auto;
+}
+
+/*GRAPH CONTAINER*/
+
+.graph-container p{
+    width: 80vw;
+}
+.graph-container img{
+    height: 70vh;
+}
+
+/*SOURCE CONTAINER*/
+
+.data-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.data-container div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5vw;
+}
+
+.data-container img {
+    width: 15vw;
+}
